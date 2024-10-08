@@ -1,0 +1,60 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PostgreSQL database files
+*.db
+*.sql
+*.sqlite
+
+# Airflow logs and temp files
+airflow/logs/
+airflow/temp/
+airflow/dags/__pycache__/
+
+# PyCharm settings
+.idea/
+*.iml
+
+# MacOS files
+.DS_Store
+
+# Operating system files
+Thumbs.db
+ehthumbs.db
+
+# Python virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Other temporary files
+*.tmp
+*.log
+*.pid
+
+# Package distributions
+*.egg-info/
+dist/
+build/
+
+# Cache
+*.egg
+*.whl
+
+# Docker files
+docker-compose.override.yml
+Dockerfile
+*.yml
+
+# Specific to Airflow
+airflow.cfg
+untracked_files/
